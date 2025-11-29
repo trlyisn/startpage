@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>startpage</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="greeter">
+        <h1>hello, <span class="highlighted">george</span></h1>
+      </div>
+
+      <div class="search">
+        <form action="https://www.duckduckgo.com/" method="GET">
+          <input
+            type="text"
+            name="q"
+            autocomplete="off"
+            placeholder="Search..."
+            autofocus
+          />
+        </form>
+      </div>
+
+      <div class="links">
+        <div class="category">
+          <h3>porn</h3>
+          <ul>
+            <li><a href="https://www.youtube.com/">yt</a></li>
+            <li><a href="https://www.icloud.com/">icloud</a></li>
+            <li><a href="https://lolz.live">lolza</a></li>
+            <li><a href="https://fmhy.net">fmhy</a></li>
+          </ul>
+        </div>
+
+        <div class="category">
+          <h3>chatapps</h3>
+          <ul>
+            <li><a href="https://web.whatsapp.com/">wapp</a></li>
+            <li><a href="https://www.instagram.com/direct/">ig dms</a></li>
+            <li><a href="https://www.messenger.com/">messenger</a></li>
+          </ul>
+        </div>
+
+        <div class="category">
+          <h3>r/</h3>
+          <ul>
+            <li>
+              <a href="https://reddit.com/r/makenewfriendshere">r/MNFH</a>
+            </li>
+            <li><a href="https://reddit.com/r/unixporn">r/unixporn</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="weather">
+        <h3>weather</h3>
+        <br />
+        <div id="weather-data">loading...</div>
+      </div>
+
+      <div class="countdown">
+        <h3>until takeoff</h3>
+        <br />
+        <div id="countdown-data">loading...</div>
+      </div>
+
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
