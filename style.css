@@ -123,22 +123,3 @@ body {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.countdown {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin-top: 30px;
-  border-radius: 15px;
-  transition: transform 0.3s;
-}
-
-.countdown h3 {
-  border-bottom: 2px solid #aa008e;
-  display: inline-block;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
-}
-
-.countdown:hover {
-  transform: translateY(-5px);
-  background: rgba(0, 0, 0, 0.3);
-}
