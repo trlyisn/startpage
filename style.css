@@ -102,24 +102,3 @@ body {
   color: white;
   text-shadow: 0 0 5px white;
 }
-
-.weather {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin-top: 30px;
-  border-radius: 15px;
-  transition: transform 0.3s;
-}
-
-.weather h3 {
-  border-bottom: 2px solid #aa008e;
-  display: inline-block;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
-}
-
-.weather:hover {
-  transform: translateY(-5px);
-  background: rgba(0, 0, 0, 0.3);
-}
-
